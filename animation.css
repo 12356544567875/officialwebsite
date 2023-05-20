@@ -1,0 +1,14 @@
+.spin-anm-type-01{
+  animation-name: _01;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes _01{
+  from{
+    transform: translateY(0px);
+  }
+  to{
+    transform: translateY(-50px);
+  }
+}
